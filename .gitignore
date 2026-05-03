@@ -165,3 +165,6 @@ src/.idea/
 
 # Ignore Jetbrains IntelliJ Workspace Directories
 .idea/
+
+# Local builder instructions
+AGENTS.md
