@@ -166,5 +166,5 @@ src/.idea/
 # Ignore Jetbrains IntelliJ Workspace Directories
 .idea/
 
-# Local builder instructions kept out of upstream history
+# Local builder instructions
 AGENTS.md
