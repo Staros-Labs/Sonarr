@@ -168,3 +168,8 @@ src/.idea/
 
 # Local builder instructions kept out of upstream history
 AGENTS.md
+
+# Local Codex skill staging
+.codex/skills/
+.codex/skills/sonarr-dev-workflow/
+.codex/skills/sonarr-build-test-verify/
