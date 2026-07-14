@@ -69,8 +69,8 @@ dependencies:
     specifier: 3.7.1
     version: 3.7.1
   lodash:
-    specifier: 4.17.21
-    version: 4.17.21
+    specifier: 4.18.1
+    version: 4.18.1
   mobile-detect:
     specifier: 1.4.5
     version: 1.4.5
@@ -87,8 +87,8 @@ dependencies:
     specifier: 15.8.1
     version: 15.8.1
   qs:
-    specifier: 6.13.0
-    version: 6.13.0
+    specifier: 6.15.2
+    version: 6.15.2
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -1765,7 +1765,7 @@ packages:
       eventsource: 1.1.2
       fetch-cookie: 0.11.0
       node-fetch: 2.7.0
-      ws: 7.5.10
+      ws: 7.5.11
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2818,7 +2818,7 @@ packages:
   /async@2.6.4:
     resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
     dev: true
 
   /async@3.2.6:
@@ -3235,7 +3235,7 @@ packages:
       react-router: 5.2.0(react@18.3.1)
       redux: 4.2.1
     optionalDependencies:
-      immutable: 4.3.7
+      immutable: 4.3.8
       seamless-immutable: 7.1.4
     dev: false
 
@@ -4649,7 +4649,7 @@ packages:
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
-      lodash: 4.17.21
+      lodash: 4.18.1
       pretty-error: 4.0.0
       tapable: 2.2.1
       webpack: 5.95.0(webpack-cli@5.1.4)
@@ -4707,8 +4707,8 @@ packages:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
     dev: false
 
-  /immutable@4.3.7:
-    resolution: {integrity: sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==}
+  /immutable@4.3.8:
+    resolution: {integrity: sha512-d/Ld9aLbKpNwyl0KiM2CT1WYvkitQ1TSvmRtkcV8FKStiDoA7Slzgjmb/1G2yhKM1p0XeNOieaTbFZmU1d3Xuw==}
     requiresBuild: true
     dev: false
     optional: true
@@ -5333,8 +5333,8 @@ packages:
     resolution: {integrity: sha512-sReKOYJIJf74dhJONhU4e0/shzi1trVbSWDOhKYE5XV2O+H7Sb2Dihwuc7xWxVl+DgFPyTqIN3zMfT9cq5iWDg==}
     dev: true
 
-  /lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  /lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   /loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -6192,7 +6192,7 @@ packages:
   /pretty-error@4.0.0:
     resolution: {integrity: sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==}
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
       renderkid: 3.0.0
     dev: true
 
@@ -6223,8 +6223,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  /qs@6.13.0:
-    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
+  /qs@6.15.2:
+    resolution: {integrity: sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
@@ -6817,7 +6817,7 @@ packages:
       css-select: 4.3.0
       dom-converter: 0.2.0
       htmlparser2: 6.1.0
-      lodash: 4.17.21
+      lodash: 4.18.1
       strip-ansi: 6.0.1
     dev: true
 
@@ -7517,7 +7517,7 @@ packages:
       faye-websocket: 0.10.0
       livereload-js: 2.4.0
       object-assign: 4.1.1
-      qs: 6.13.0
+      qs: 6.15.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8123,8 +8123,8 @@ packages:
       signal-exit: 4.1.0
     dev: true
 
-  /ws@7.5.10:
-    resolution: {integrity: sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==}
+  /ws@7.5.11:
+    resolution: {integrity: sha512-zS54Oen9bITtp7kp2XM3AydrCIq1D+HwJOuH+c+e4LfpL/lotP5osijd+UoMnxwAam1GN8R4KtLAyIrIcBNpiA==}
     engines: {node: '>=8.3.0'}
     peerDependencies:
       bufferutil: ^4.0.1
