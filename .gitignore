@@ -165,3 +165,12 @@ src/.idea/
 
 # Ignore Jetbrains IntelliJ Workspace Directories
 .idea/
+
+# Agent instruction and session surfaces are intentionally local-only.
+AGENTS.md
+CLAUDE.md
+.agents/
+.claude/
+.codex/
+.agent-session
+.codex-session-*
